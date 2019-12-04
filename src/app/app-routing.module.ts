@@ -4,7 +4,7 @@ import { TreeComponent } from './pages/tree/tree.component';
 
 
 const routes: Routes = [
-  { path: '/',
+  { path: '',
     redirectTo: '/Tree',
     pathMatch: 'full'
   },{
