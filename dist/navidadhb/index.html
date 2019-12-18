@@ -6,10 +6,137 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+
+
+ <!--
+
+  <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> 
+  <script src= "https://ajax.googleapis.com/ajax/libs/jquery/4.0.0/jquery.min.js"> </script> 
+  <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"> </script> 
+ -->
+  <!--
+  <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+  <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> </script> 
+  <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script> 
+ 
+  <style> 
+      #myBtn { 
+          width: 300px; 
+          padding: 10px; 
+          font-size: 20px; 
+          position: absolute; 
+          margin: 0 auto; 
+          right: 0; 
+          left: 0; 
+          bottom: 50px; 
+          z-index: 9999; 
+      } 
+  </style> -->
 <link rel="stylesheet" href="styles.7943150c464cee431ae6.css"></head>
 <body>
   <app-root></app-root>
+  <!--
+  <div class="modal fade" 
+       id="myModal" 
+       role="dialog"> 
+      <div class="modal-dialog"> 
+        
+          <div>  
+              
+               <div class="modal-body" style="width:100%; margin: auto;"> 
+                  <button type="button"  style="margin: auto;"
+                  data-dismiss="modal"> 
+                 
+                  <img src="https://i.imgur.com/GLvA2jx.jpg"  width="100%" title="source: imgur.com" />
+                  <p> Desarrollo </p>
+                </button> 
+              </div> 
+       
+                <button type="button" 
+                        class="close" 
+                        data-dismiss="modal"> 
+                  × 
+                </button> 
+        
+            
+          </div> 
+      </div> 
+  </div> 
 
-  
-<script src="runtime-es2015.edb2fcf2778e7bf1d426.js" type="module"></script><script src="runtime-es5.edb2fcf2778e7bf1d426.js" nomodule defer></script><script src="polyfills-es5.6696c533341b95a3d617.js" nomodule defer></script><script src="polyfills-es2015.2987770fde9daa1d8a2e.js" type="module"></script><script src="main-es2015.06d7473304e6f4800b08.js" type="module"></script><script src="main-es5.06d7473304e6f4800b08.js" nomodule defer></script></body>
+
+
+  <div class="modal fade" 
+  id="myModal2" 
+  role="dialog"> 
+ <div class="modal-dialog"> 
+   
+     <div> 
+         <div class="modal-body" style="width: 70%;  margin: auto;"> 
+             <button type="button"  style="margin: auto;"
+             data-dismiss="modal"> 
+            
+             <img src="https://i.imgur.com/sdDtb0A.jpg"  width="100%"  title="source: imgur.com" />
+             <p> Soporte - HelpDesk - Infraestructura </p>
+           </button> 
+         </div> 
+        
+           <button type="button" 
+                   class="close" 
+                   data-dismiss="modal"> 
+             × 
+           </button> 
+         
+       
+     </div> 
+ </div> 
+</div> 
+
+  <script> 
+function refreshData(){
+  setTimeout(showDesa, 1000);
+  setTimeout(showSupp, 7000);
+  setTimeout(refreshData, 14000);
+    }
+
+
+    function showDesa(){
+        setTimeout(function(){ 
+                    $(document).ready(function() { 
+                    $("#myModal").modal("show"); 
+                    $("#myBtn").click(function() { 
+                        $("#myModal").modal("hide"); 
+                    }); 
+                  }); 
+          }, 3000);
+
+          setTimeout(function(){ 
+                $(document).ready(function() { 
+                  $("#myModal").modal("hide"); 
+                }); 
+           }, 6000);
+        
+    }
+
+    function showSupp(){
+      setTimeout(function(){ 
+                    $(document).ready(function() { 
+                    $("#myModal2").modal("show"); 
+                    $("#myBtn").click(function() { 
+                        $("#myModal2").modal("hide"); 
+                    }); 
+                  }); 
+          }, 3000);
+
+          setTimeout(function(){ 
+                $(document).ready(function() { 
+                  $("#myModal2").modal("hide"); 
+                }); 
+           }, 6000);
+    }
+    refreshData();
+</script> -->
+
+<script src="runtime-es2015.edb2fcf2778e7bf1d426.js" type="module"></script><script src="runtime-es5.edb2fcf2778e7bf1d426.js" nomodule defer></script><script src="polyfills-es5.6696c533341b95a3d617.js" nomodule defer></script><script src="polyfills-es2015.2987770fde9daa1d8a2e.js" type="module"></script><script src="main-es2015.e5bc46a202637be31257.js" type="module"></script><script src="main-es5.e5bc46a202637be31257.js" nomodule defer></script></body>
 </html>
